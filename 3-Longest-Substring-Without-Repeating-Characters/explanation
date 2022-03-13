@@ -1,1 +1,4 @@
+Sliding Window
 
+O(n)
+maintain the last index for every character and always shift your left pointer of window to that if that character is visited otherwise mark it visited and put last index 
