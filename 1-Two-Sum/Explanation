@@ -1,0 +1,18 @@
+#Greedy Algo
+##solution Possible:
+O(n^2)
+O(nlogn)
+O(n)
+
+O(n^2)
+
+Run nested loop and find the pair which give sum as target
+
+O(nlogn)
+
+Sort the array based on elements value in ascending order then run the 2 pointers looking for target sum 
+
+O(n)
+
+Iterate from one end of the array, maintain unordered_map/hash_map/array to store the element encountered so far and at each element 
+check if the target-cur_element_value is there in hashmap or not if there we found are answer otherwise we need to proceed further.
